@@ -18,6 +18,7 @@
 		870EC14428975C0000ED8CC1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870EC14228975C0000ED8CC1 /* TableViewCell.swift */; };
 		870EC14528975C0000ED8CC1 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 870EC14328975C0000ED8CC1 /* TableViewCell.xib */; };
 		872EB6902897601F002DF28D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872EB68F2897601F002DF28D /* ViewModel.swift */; };
+		872EB6922897689A002DF28D /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872EB6912897689A002DF28D /* DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		870EC14228975C0000ED8CC1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		870EC14328975C0000ED8CC1 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		872EB68F2897601F002DF28D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		872EB6912897689A002DF28D /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		870EC13F28975BDC00ED8CC1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				872EB6912897689A002DF28D /* DataSource.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872EB6922897689A002DF28D /* DataSource.swift in Sources */,
 				872EB6902897601F002DF28D /* ViewModel.swift in Sources */,
 				870EC12B28975B7700ED8CC1 /* ViewController.swift in Sources */,
 				870EC14428975C0000ED8CC1 /* TableViewCell.swift in Sources */,

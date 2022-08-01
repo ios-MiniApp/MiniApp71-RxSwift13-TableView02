@@ -9,10 +9,4 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
-    @IBOutlet weak var nameLabel: UILabel!
-
-//    func configure(model: SampleModel) {
-//        nameLabel.text = model.name
-//    }
-
 }
